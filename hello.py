@@ -31,6 +31,7 @@ def order_marks():
 		print(lst[1][0])
 		print("Which is required name..")
 	else:
+		"""Arranging names in alphabetical order"""
 		l=[lst[a][0] for a in range(1,len(lst)) if lst[1][1] in lst[a]]
 		for m in range(len(l)):
 			for n in range(m+1,len(l)):
