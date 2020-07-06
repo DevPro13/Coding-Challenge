@@ -43,9 +43,8 @@ def order_marks():
 			print(i)
 	    print("These are required names..")
 		
-
-
-order_marks()
+if __name__=='__main__':
+	order_marks()
 
 
 
